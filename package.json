@@ -1,0 +1,25 @@
+{
+  "name": "dynamodb-test-tool",
+  "version": "1.0.0",
+  "description": "dynamodb tools",
+  "main": "index.js",
+  "scripts": {
+    "createDDB": "node ddbTable create",
+    "loadDDB": "node ddbTable load",
+    "deleteDDB": "node ddbTable delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manoj2087/dynamodb-test-tool.git"
+  },
+  "author": "manoj alaghappan",
+  "license": "Apache License Version 2.0",
+  "bugs": {
+    "url": "https://github.com/Manoj2087/dynamodb-test-tool/issues"
+  },
+  "homepage": "https://github.com/Manoj2087/dynamodb-test-tool#readme",
+  "dependencies": {
+    "aws-sdk": "^2.688.0",
+    "debug": "^4.1.1"
+  }
+}
