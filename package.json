@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Manoj2087/dynamodb-test-tool#readme",
   "dependencies": {
-    "aws-sdk": "^2.688.0",
+    "aws-sdk": "^2.814.0",
     "debug": "^4.1.1"
   }
 }
